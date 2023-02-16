@@ -29,12 +29,12 @@ body{
     filter: grayscale(1);
 }
 
-.box:hover:active{
+.box:hover, .box:active{
     flex: 3;
 }
 
 
 
-.box:hover:active img{
+.box:hover, .box:active img{
     filter: grayscale(0);
 }
