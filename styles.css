@@ -35,6 +35,6 @@ body{
 
 
 
-.box:hover, .box:active img{
+.box:hover img{
     filter: grayscale(0);
 }
